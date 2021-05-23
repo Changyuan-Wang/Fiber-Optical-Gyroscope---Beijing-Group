@@ -19,3 +19,4 @@ Our project is a fiber optical gyroscope. The goal of this project was to demons
   * [1.5 Overview](#15-overview)
 
 # List of Components
+- Labjack
