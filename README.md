@@ -24,7 +24,7 @@ Our project is a fiber optical gyroscope. The goal of this project was to demons
   * We can use a lazy susan, but most of the lazy susans can not rotate very fast.
   * We made one with small turntable and cardboard.
 - Manual Fiber Polarization Controller
-- 
+- hhhh
 
 ### Purchase Link
 - https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=343
