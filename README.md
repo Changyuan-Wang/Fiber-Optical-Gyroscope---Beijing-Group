@@ -35,7 +35,7 @@ Our project is a fiber optical gyroscope. The goal of this project was to demons
 - Labjack HV (from PHYS CS 15A)
 
 Note:
-All of the components are bought in Beijing, China, so their prices are typically cheaper than in the United States. Here is an example purchase link that include most of the components for people in the US: https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=343.
+All of the components are bought in Beijing, China, so their prices are typically cheaper than those in the United States. Here is an example purchase link that include most of the components for people in the US: https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=343.
 
 The total investment (include shipping cost) is about ~¥1000 [~$150]. Comparing to buying a gyroscope directly [~  ], our project is about ___ times cheapter. 
 
