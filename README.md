@@ -1,6 +1,9 @@
 # Fiber-Optical-Gyroscope---Beijing-Group
 Our project is a fiber optical gyroscope. The goal of this project was to demonstrate the Sagnac effect.
 
+### Table of Contents
+
+
 - [1. Introduction](#1-introduction)
   * [1.1 Purpose](#11-purpose)
   * [1.2 Scope](#12-scope)
