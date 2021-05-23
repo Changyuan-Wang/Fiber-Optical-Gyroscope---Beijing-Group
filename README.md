@@ -26,7 +26,7 @@ Our project is a fiber optical gyroscope. The goal of this project was to demons
   * We made one with small turntable and cardboard.
 - Manual 3-Paddle Fiber Polarization Controller [1310nm] (~¥400)
 - 1310nm 5mW FP SM Laser Diode (~¥100)
-- 
+- 75um 2.5GHZ Analog InGaAS PIN Photodiode 
 - 
 - Labjack HV
 
