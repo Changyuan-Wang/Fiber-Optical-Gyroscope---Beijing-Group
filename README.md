@@ -22,7 +22,7 @@ Our project is a fiber optical gyroscope. The goal of this project was to demons
 
 - A turntable [two choices]:
   * Lazy susan (~¥100)
-    + most of the lazy susans can not rotate very fast.
+    + small disadvantage: most of the lazy susans can not rotate very fast.
   * We can also made one with small turntable and cardboard (~¥20)
 - Manual 3-Paddle Fiber Polarization Controller [1310nm] (~¥400)
 - 1310nm FC/APC Single Mode Patch Cables (~¥115)
@@ -32,7 +32,7 @@ Our project is a fiber optical gyroscope. The goal of this project was to demons
 - FC/APC fiber adapters (~¥2.5 each, ~¥12.5 in total)
 - Buck Converter (~¥1)
 - Common components like breadboard, wires, batteries, switches, resistors (~¥10)
-- Labjack HV
+- Labjack HV (from PHYS CS 15A)
 
 Note:
 All of the components are bought in Beijing, China, so their prices are typically cheaper than in the United States. Here is an example purchase link that include most of the components for people in the US: https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=343.
@@ -52,3 +52,6 @@ The total investment (include shipping cost) is about ~¥1000 [~$150]. Comparing
     * Since a small change in the geometry of the fibers will result in a big difference in interference patterns, we need to make sure that the whole system is stable.
       + Battery - use a buck converter to stablize the power
       + Fibers - use iron wires and tapes to ensure that when we rotate the whole structure, the geometry of cables do not change
+
+# Contributors
+This project is made by Yuan Li, Changyuan Wang, and Haopu Yang in the course PHYS CS 15C at UCSB.
