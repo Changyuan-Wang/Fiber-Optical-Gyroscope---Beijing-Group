@@ -17,3 +17,5 @@ Our project is a fiber optical gyroscope. The goal of this project was to demons
     + [1.4.1 Internal References](#141-internal-references)
     + [1.4.2 External References](#142-external-references)
   * [1.5 Overview](#15-overview)
+
+# List of Components
