@@ -23,17 +23,21 @@ Our project is a fiber optical gyroscope. The goal of this project was to demons
 - A turntable [two choices]:
   * Lazy susan (~¥100)
     + most of the lazy susans can not rotate very fast.
-  * We made one with small turntable and cardboard.
+  * We can also made one with small turntable and cardboard (~¥20)
 - Manual 3-Paddle Fiber Polarization Controller [1310nm] (~¥400)
+- 1310nm FC/APC Single Mode Patch Cables (~¥115)
+- 1310nm 2x2 Fiber Coupler (~¥50)
 - 1310nm 5mW FP SM Laser Diode (~¥100)
-- 75um 2.5GHZ Analog InGaAS PIN Photodiode 
-- 
+- 75um 2.5GHZ Analog InGaAS PIN Photodiode (~¥40)
+- FC/APC fiber adapters (~¥2.5 each, ~¥12.5 in total)
+- Buck Converter (~¥1)
+- Common components like breadboard, wires, batteries, switches, resistors (~¥10)
 - Labjack HV
 
 Note:
 All of the components are bought in Beijing, China, so their prices are typically cheaper than in the United States. Here is an example purchase link that include most of the components for people in the US: https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=343.
 
-The
+The total investment (include shipping cost) is about ~¥1000 [~$150]. Comparing to buying a gyroscope directly [~  ], our project is about ___ times cheapter. 
 
 # Design
 
