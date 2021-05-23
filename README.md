@@ -1,4 +1,4 @@
-# Fiber-Optical-Gyroscope---Beijing-Group
+# Fiber Optical Gyroscope (FOG) - Beijing Group
 Our project is a fiber optical gyroscope. The goal of this project was to demonstrate the Sagnac effect.
 
 ### Table of Contents
@@ -19,12 +19,15 @@ Our project is a fiber optical gyroscope. The goal of this project was to demons
   * [1.5 Overview](#15-overview)
 
 # List of Components
-- Labjack
-- A turntable
-  * We can use a lazy susan, but most of the lazy susans can not rotate very fast.
+
+- A turntable [two choices]:
+  * Lazy susan (~¥100)
+    + most of the lazy susans can not rotate very fast.
   * We made one with small turntable and cardboard.
 - Manual Fiber Polarization Controller
 - hhhh
+- Labjack HV
+
 
 ### Purchase Link
 - https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=343
