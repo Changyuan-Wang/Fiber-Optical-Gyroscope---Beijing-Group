@@ -37,7 +37,7 @@ All of the components are bought in Beijing, China, so their prices are typicall
 
 
 # Building Process
-Tips:
+### Tips:
   - Selecting fibers and adapters
     * Fibers should be all single mode or all multimode. Single mode fibers are typically cheaper, so it is better to use them in labs.
     * All of the components should be in the same light range (e.g. 1310nm).
