@@ -43,6 +43,6 @@ All of the components are bought in Beijing, China, so their prices are typicall
     + all of the components should be in the same light range (e.g. 1310nm)
     + all of the components should have the same type of connectors (e.g. FC/APC)
   * Stablization
-  * - Since a small change in the geometry of the fibers will result in a big difference in interference patterns, we need to make sure that the whole system is stable.
+  * Since a small change in the geometry of the fibers will result in a big difference in interference patterns, we need to make sure that the whole system is stable.
     + battery - use a buck converter to stablize the power
     + fibers - use iron wires and tapes to ensure that when we rotate the whole structure, the geometry of cables do not change
