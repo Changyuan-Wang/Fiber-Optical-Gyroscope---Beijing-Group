@@ -33,6 +33,8 @@ Our project is a fiber optical gyroscope. The goal of this project was to demons
 Note:
 All of the components are bought in Beijing, China, so their prices are typically cheaper than in the United States. Here is an example purchase link that include most of the components for people in the US: https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=343.
 
+The
+
 # Design
 
 
