@@ -26,5 +26,5 @@ Our project is a fiber optical gyroscope. The goal of this project was to demons
 - Manual Fiber Polarization Controller
 - 
 
-## Purchase Link
-https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=343
+### Purchase Link
+- https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=343
