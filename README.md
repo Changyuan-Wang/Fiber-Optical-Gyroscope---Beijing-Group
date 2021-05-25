@@ -56,4 +56,4 @@ The total investment (include shipping cost) is about ~¥1000 [~$150]. Comparing
       + Fibers - use iron wires and tapes to ensure that when we rotate the whole structure, the geometry of cables do not change
 
 # Contributors
-This project is made by Yuan Li, Changyuan Wang, and Haopu Yang in the course PHYS CS 15C at UCSB.
+This project is made by Yuan Li, Changyuan Wang, and Haopu Yang under the supervision of Dr. Jayich in the course PHYS CS 15C at UCSB.
