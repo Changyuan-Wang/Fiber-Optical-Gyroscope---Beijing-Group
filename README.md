@@ -45,12 +45,12 @@ The total investment (include shipping cost) is about ~¥1000 [~$150]. Comparing
 # Building Process
 ### Tips:
   - Material Selection  
-    The building process is actually relatively simple; the difficult approach is to select the approriate/matching materials.
+    *The building process is actually relatively simple; the difficult approach is to select the approriate/matching materials.
     * Fibers should be all single mode or all multimode. Single mode fibers are typically cheaper, so it is better to use them in labs.
     * All of the components should be in the same light range (e.g. 1310nm).
     * All of the components should have the same type of connectors (e.g. FC/APC).
   - Stablization  
-    Since a small change in the geometry of the fibers will result in a big difference in interference patterns, we need to make sure that the whole system is stable.  
+    - Since a small change in the geometry of the fibers will result in a big difference in interference patterns, we need to make sure that the whole system is stable.  
     After we have obtained a stable system, we can confidently claim that the changes in intensity data are due to rotation instead of distortion in geometry.
       + Battery - use a buck converter to stablize the power
       + Fibers - use iron wires and tapes to ensure that when we rotate the whole structure, the geometry of cables do not change
