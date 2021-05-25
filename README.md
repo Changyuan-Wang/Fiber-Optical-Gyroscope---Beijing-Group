@@ -1,8 +1,8 @@
 # Fiber Optical Gyroscope (FOG) - Beijing Group
-Our project is a fiber optical gyroscope. The goal of this project was to demonstrate the Sagnac effect.
+In this guide we will introduce our project: a fiber optical gyroscope (FOG). The goal of this project was to use the Sagnac effect to build the gyroscope, let the gyroscope to produce interference patterns, and apply labjack to convert the shifted fringes to a function of angular velocity. The figures of angular velocity can in turn check if our gyroscope is successful. Now let's discuss our project in details.
+
 
 ### Table of Contents
-
 
 - [List of Components](#1-list-of-components)
 - [Design](#2-design)
