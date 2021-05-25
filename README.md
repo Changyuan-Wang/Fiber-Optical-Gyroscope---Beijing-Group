@@ -30,7 +30,7 @@ Our project is a fiber optical gyroscope. The goal of this project was to demons
 - 1310nm 5mW FP SM Laser Diode (~¥100)
 - 75um 2.5GHZ Analog InGaAS PIN Photodiode (~¥40)
 - FC/APC fiber adapters (~¥2.5 each, ~¥12.5 in total)
-- Buck Converter (~¥1)
+- Voltage Stabilizer (~¥1)
 - Common components like breadboard, wires, batteries, switches, resistors (~¥10)
 - Labjack HV (from PHYS CS 15A)
 
