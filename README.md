@@ -44,7 +44,7 @@ The total investment (include shipping cost) is about ~¥1000 [~$150]. Comparing
 
 # Building Process
 ### Tips:
-  - Material Selection
+  - Material Selection  
     []
     * Fibers should be all single mode or all multimode. Single mode fibers are typically cheaper, so it is better to use them in labs.
     * All of the components should be in the same light range (e.g. 1310nm).
