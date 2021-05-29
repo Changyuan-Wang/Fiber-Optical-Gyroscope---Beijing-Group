@@ -42,6 +42,7 @@ The total investment (include shipping cost) is about ~¥1000 [~$150]. Comparing
 # Design
 ![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Circuit-Diagram.png)
 ![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/电路图.png)
+aa
 
 # Building Process
 ### Tips:
