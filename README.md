@@ -40,7 +40,7 @@ All of the components are bought in Beijing, China, so their prices are typicall
 The total investment (include shipping cost) is about ~¥1000 [~$150]. Comparing to buying a gyroscope directly [~  ], our project is about ___ times cheapter. 
 
 # Design
-![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Circuit Diagram.png)
+![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Circuit%20Diagram.png)
 ![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/电路图.png)
 
 
