@@ -5,10 +5,13 @@ In this guide, we will introduce our project: a fiber optical gyroscope (FOG). T
 ### Table of Contents
 
 - [List of Components](#1-list-of-components)
-- [Design](#2-design)
-- [Building Process](#3-building-process)
-- [Code](#4-code)
-- [Finished Product](#5-finished-project)
+- [Theory](#2-theory)
+- [Design](#3-design)
+- [Building Process](#4-building-process)
+- [Code](#5-code)
+- [Finished Product](#6-finished-project)
+  * [Structure](#61-structure)
+  * [Plots](#61-plots)
 - [Contributors](#6-contributors)
   * [1.1 Purpose](#11-purpose)
   * [1.2 Scope](#12-scope)
@@ -42,6 +45,8 @@ All of the components are bought in Beijing, China, so their prices are typicall
 
 The total investment (include shipping cost) is about ~¥1000 [~$150]. Comparing to buying a gyroscope directly [~  ], our project is about ___ times cheapter. 
 
+# Theory: Sagnac Effect
+
 # Design
 This is the simplified version of our circuit diagram. Before making the whole system wireless, it is easier to use this diagram to perform all kinds of testing. Later, the voltimeter shown in the diagram will be changed into labJack, and the process of transmitting data wirelessly will also be involved in this section.
 ![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Circuit%20Diagram%20-%20Testing.png)
@@ -63,14 +68,18 @@ The idea of using tubes to construct the structure is credited to Qikai Gao in U
       + Battery - use a buck converter to stablize the power
       + Fibers - use iron wires and tapes to ensure that when we rotate the whole structure, the geometry of cables do not change
 
+# Codes
+
 # Finished Products
 ## Structure
 This is an video showing how our project works:
 
-## Codes
-
 
 ## Plots
+Since we align the x-axis of the magnetometer with the z-axis of gyroscope (pointing upwards), the x-component of the magnetic field (Bx) is a constant (which makes sense).
+![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Magnetic%20Field%20(Bx%2C%20By%2C%20Bz).png)
+When the gyroscope slows down naturally, the intensity decreases over time.
+![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Intensity%20v.s.%20Time%20(slows%20down).png)
 
 
 # Contributors
