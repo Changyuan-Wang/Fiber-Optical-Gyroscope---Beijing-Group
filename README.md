@@ -23,14 +23,17 @@ In this guide, we will introduce our project: a fiber optical gyroscope (FOG). T
 - A turntable [two choices]:
   * Lazy susan (~¥100)
     + small disadvantage: most of the lazy susans can not rotate very fast.
-  * We can also made one with small turntable and cardboard (~¥20)
+  * We can also make one with a small turntable and cardboard (~¥20)
 - Manual 3-Paddle Fiber Polarization Controller [1310nm] (~¥400)
 - 1310nm FC/APC Single Mode Patch Cables (~¥115)
 - 1310nm 2x2 Fiber Coupler (~¥50)
 - 1310nm 5mW FP SM Laser Diode (~¥100)
 - 75um 2.5GHZ Analog InGaAS PIN Photodiode (~¥40)
-- FC/APC fiber adapters (~¥2.5 each, ~¥12.5 in total)
-- Voltage Stabilizer (~¥1)
+- FC/APC fiber adapters (~¥3 each, ~¥15 in total)
+- 5A DC-DC Voltage Regulator Module (~¥15)
+- GY-511 LSM303DLHC Magnetometer Module (~¥30)
+- Wireless Network Print Server (~¥250)
+  * This is to achieve a USB virtualization. We can use this print server to transfer data from labJack to our computer from a long distance without wires.
 - Common components like breadboard, wires, batteries, switches, resistors (~¥10)
 - Labjack HV (from PHYS CS 15A)
 
