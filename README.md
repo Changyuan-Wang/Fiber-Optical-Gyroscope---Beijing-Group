@@ -46,6 +46,8 @@ All of the components are bought in Beijing, China, so their prices are typicall
 The total investment (include shipping cost) is about ~¥1000 [~$150]. Comparing to buying a gyroscope directly [~  ], our project is about ___ times cheapter. 
 
 # Theory: Sagnac Effect
+![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Sagnac%20Effect.png)
+
 
 # Design
 This is the simplified version of our circuit diagram. Before making the whole system wireless, it is easier to use this diagram to perform all kinds of testing. Later, the voltimeter shown in the diagram will be changed into labJack, and the process of transmitting data wirelessly will also be involved in this section.
