@@ -1,9 +1,9 @@
 # Fiber Optical Gyroscope (FOG) - Beijing Group
 In this guide, we will introduce our project: a fiber optical gyroscope (FOG). The goal of this project was to use the Sagnac effect to build the gyroscope, let the gyroscope produce interference patterns, and apply labJack to convert the shifted fringes to a function of angular velocity. The figures of angular velocity can in turn check if our gyroscope is successful.  
   
-We choose to build fiber optical gyroscope instead of mechanical gyroscope because FOG turns out to an elegant replacement for mechanical gyroscope in the future. FOG exhibits some great features, like high accuracy, high reliability, high tolerance for shock, and absence of 'g' sensitivity. Even though FOG are typically larger and more expensive, it is an useful tool for inertial navigation and measuring rotations, and it may be more commonly applied later on as the technology of fibers grows <cite>[1]</cite>. FOG is an interesting topic with promising future, so we decide to build one by ourselves and explore it in details
+We choose to build fiber optical gyroscope instead of mechanical gyroscope because FOG turns out to an elegant replacement for mechanical gyroscope in the future. FOG exhibits some great features, like high accuracy, high reliability, high tolerance for shock, and absence of 'g' sensitivity. Even though FOG are typically larger and more expensive, it is an useful tool for inertial navigation and measuring rotations, and it may be more commonly applied later on as the technology of fibers grows [<cite>[1]</cite>]. FOG is an interesting topic with promising future, so we decide to build one by ourselves and explore it in details.
 
-[2]: https://www.researchgate.net/publication/243781972_Fiber_Optic_Rate_Gyros_as_Replacements_for_Mechanical_Gyros
+[1]: https://www.researchgate.net/publication/243781972_Fiber_Optic_Rate_Gyros_as_Replacements_for_Mechanical_Gyros
 
 ### Table of Contents
 
