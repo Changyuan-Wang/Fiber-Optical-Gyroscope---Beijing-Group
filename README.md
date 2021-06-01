@@ -64,8 +64,13 @@ Structure credited to Qikai Gao in UCD.
       + Fibers - use iron wires and tapes to ensure that when we rotate the whole structure, the geometry of cables do not change
 
 # Finished Products
+## Structure
 This is an video showing how our project works:
 
+## Codes
+
+
+## Plots
 
 
 # Contributors
