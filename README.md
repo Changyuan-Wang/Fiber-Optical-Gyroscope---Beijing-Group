@@ -72,6 +72,8 @@ The idea of using tubes to construct the structure is credited to Qikai Gao in U
 
 # Finished Products
 ## Structure
+This is the finished gyroscope.
+![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Structure.jpeg)
 This is an video showing how our project works:
 
 
