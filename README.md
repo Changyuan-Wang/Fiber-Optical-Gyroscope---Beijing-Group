@@ -20,6 +20,7 @@ In this guide, we will introduce our project: a fiber optical gyroscope (FOG). T
     + [1.4.1 Internal References](#141-internal-references)
     + [1.4.2 External References](#142-external-references)
   * [1.5 Overview](#15-overview)
+- [Citations](#7-citations)
 
 # List of Components
 
@@ -47,7 +48,8 @@ The total investment (include shipping cost) is about ~¥1000 [~$150]. Comparing
 
 # Theory: Sagnac Effect
 ![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Sagnac%20Effect.png)
-
+  
+This figure is credited to - <cite>[Anthony Dandridge][1]</cite>.
 
 # Design
 This is the simplified version of our circuit diagram. Before making the whole system wireless, it is easier to use this diagram to perform all kinds of testing. Later, the voltimeter shown in the diagram will be changed into labJack, and the process of transmitting data wirelessly will also be involved in this section.
@@ -93,4 +95,11 @@ When the gyroscope slows down naturally, the intensity decreases over time.
 
 
 # Contributors
-This project is made by Yuan Li, Changyuan Wang, and Haopu Yang under the supervision of Dr. Jayich in the course PHYS CS 15C at UCSB.
+This project is made by Yuan Li, Changyuan Wang, and Haopu Yang under the supervision of Dr. Jayich in the course PHYS CS 15C at UCSB.  
+  
+# Citation
+https://www.researchgate.net/publication/243781972_Fiber_Optic_Rate_Gyros_as_Replacements_for_Mechanical_Gyros
+> The secret to creativity is knowing how to hide your sources. 
+> -- <cite>[Albert Einstein][1]</cite>
+
+[1]: https://www.researchgate.net/figure/Basic-optical-configuration-of-the-Sagnac-interferometer-and-Ring-resonator_fig2_243755491
