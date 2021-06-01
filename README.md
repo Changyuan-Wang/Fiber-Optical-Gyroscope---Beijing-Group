@@ -48,9 +48,10 @@ The total investment (include shipping cost) is about ~¥1000 [~$150]. Comparing
 # Theory: Sagnac Effect
 ![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Sagnac%20Effect.png)
   
-This figure is credited to <cite>[Anthony Dandridge][1]</cite>.
+This figure is credited to <cite>[Anthony Dandridge][1]</cite>, and some of the theory part is credited to <cite>[Sid Bennett][2]</cite>.
 
 [1]: https://www.researchgate.net/figure/Basic-optical-configuration-of-the-Sagnac-interferometer-and-Ring-resonator_fig2_243755491
+[2]: https://www.researchgate.net/publication/243781972_Fiber_Optic_Rate_Gyros_as_Replacements_for_Mechanical_Gyros
 
 # Design
 This is the simplified version of our circuit diagram. Before making the whole system wireless, it is easier to use this diagram to perform all kinds of testing. Later, the voltimeter shown in the diagram will be changed into labJack, and the process of transmitting data wirelessly will also be involved in this section.
