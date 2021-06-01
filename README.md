@@ -59,5 +59,10 @@ The total investment (include shipping cost) is about ~¥1000 [~$150]. Comparing
       + Battery - use a buck converter to stablize the power
       + Fibers - use iron wires and tapes to ensure that when we rotate the whole structure, the geometry of cables do not change
 
+# Finished Products
+This is an video showing how our project works:
+
+
+
 # Contributors
 This project is made by Yuan Li, Changyuan Wang, and Haopu Yang under the supervision of Dr. Jayich in the course PHYS CS 15C at UCSB.
