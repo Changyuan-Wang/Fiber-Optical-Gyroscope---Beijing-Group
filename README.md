@@ -74,6 +74,7 @@ The idea of using tubes to construct the structure is credited to Qikai Gao in U
 ## Structure
 This is the finished gyroscope.  
 The magnetometer is fixed at the center of lazy susan, and we use it to measure the geomagnetic field. This is to avoid the effects of any other magnetic fields that are uneven through space. 
+We used the labJack instead of AA batteries to provide power to the laser diode. The GND and DAC0 provide 1.2V to the laser diode, and the GND and AIN0 measure the voltage of the photodiode. There are a great number of advantages of using labJack instead of batteries. For example, the laser diode can only take a voltage of 1.2 ~ 1.5V, so most of the times we need to apply a voltage stabilizer to the AA batteries (6V in common). LabJack, however, can provide a stable voltage, and we can change its magnitude by using a small convenient program (mentioned in the code section). The black power bank in the corner will provide power for the labJack.  
 ![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Structure.jpeg)
 This is an video showing how our project works:
 
