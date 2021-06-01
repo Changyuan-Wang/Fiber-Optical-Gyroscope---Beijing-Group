@@ -47,7 +47,7 @@ This is the simplified version of our circuit diagram. Before making the whole s
 ![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Circuit%20Diagram%20-%20Testing.png)
 The blue module serves as a magnetometer. The magnetometer measures the magnetic field (Bx, By, Bz), and we use a coding program (goodbyemagnetometer.py) to convert the field information into a function of angular velocity versus time.
 ![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/LabJack%20%26%20Magnetometer.png)
-Structure credited to Qikai Gao in UCD.
+The idea of using tubes to construct the structure is credited to Qikai Gao in UCD.
 
 
 # Building Process
