@@ -73,7 +73,7 @@ The idea of using tubes to construct the structure is credited to Qikai Gao in U
 # Finished Products
 ## Structure
 This is the finished gyroscope.  
-The magnetometer is fixed at the center of lazy susan, and we use it to measure the geomagnetic field. This is to avoid the effects of any other magnetic fields that are uneven through space.  
+The magnetometer is fixed at the center of lazy susan, and we use it to measure the geomagnetic field. This is to avoid the effects of any other magnetic fields that are uneven through space. 
 ![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Structure.jpeg)
 This is an video showing how our project works:
 
