@@ -56,8 +56,11 @@ This figure is credited to <cite>[Anthony Dandridge][2]</cite>.
 [2]: https://www.researchgate.net/figure/Basic-optical-configuration-of-the-Sagnac-interferometer-and-Ring-resonator_fig2_243755491
 
 # Design
-This is the simplified version of our circuit diagram. Before making the whole system wireless, it is easier to use this diagram to perform all kinds of testing. Later, the voltimeter shown in the diagram will be changed into labJack, and the process of transmitting data wirelessly will also be involved in this section.
+This schematic diagram is the simplified version of our project. Before making the whole system wireless, it is easier to use this circuit to perform all kinds of testing. Later, the voltimeter shown in the diagram will be changed into labJack, and the process of transmitting data wirelessly is also related to labJack.  
+  
+To be noted, labJack can also provide power, so we can change the battery into labJack as well. The procedure of how to use labJack to prove power can be easily found online, and we will also mention it in the "Finished Produce - Structure" section.  
 ![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Circuit%20Diagram%20-%20Testing.png)
+
 The blue GY-511 module serves as a magnetometer. The magnetometer measures the magnetic field (Bx, By, Bz), and we use a coding program (goodbyemagnetometer.py) to convert the field information into a function of angular velocity versus time.
 ![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/LabJack%20%26%20Magnetometer.png)
 The idea of using tubes to construct the structure is credited to Qikai Gao at UC Davis.
