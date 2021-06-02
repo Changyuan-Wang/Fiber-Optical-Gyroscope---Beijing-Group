@@ -16,14 +16,7 @@ We choose to build a fiber optical gyroscope instead of a mechanical gyroscope b
 - [Code](#5-code)
 - [Finished Product](#6-finished-project)
   * [Plots](#61-plots)
-- [Contributors](#6-contributors)
-  * [1.1 Purpose](#11-purpose)
-  * [1.2 Scope](#12-scope)
-  * [1.3 Acronyms](#13-acronyms)
-  * [1.4 References](#14-references)
-    + [1.4.1 Internal References](#141-internal-references)
-    + [1.4.2 External References](#142-external-references)
-  * [1.5 Overview](#15-overview)
+- [Contributors](#7-contributors)
 
 # List of Components
 
