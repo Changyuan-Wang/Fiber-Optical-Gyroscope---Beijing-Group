@@ -46,7 +46,7 @@ We choose to build fiber optical gyroscope instead of mechanical gyroscope becau
 Note:
 All of the components are bought in Beijing, China, so their prices are typically cheaper than those in the United States. Here is an example purchase link that include most of the components for people in the US: https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=343.
 
-The total investment (include shipping cost) is about ~¥1000 [~$150]. Comparing to buying a gyroscope directly [~  ], our project is about ___ times cheapter. 
+The total investment (include shipping cost) is about ~¥1000 [~$150], which is acceptable if we do not use some fancy part-kits like polarization-maintaining optical fiber.
 
 # Theory: Sagnac Effect
 ![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Sagnac%20Effect.png)
@@ -78,7 +78,7 @@ The idea of using tubes to construct the structure is credited to Qikai Gao at U
 
 # Codes
 We reused some of the codes in the file hellomagnetometer.py in PHYS CS 15A, which is credited to Dr. Patterson at UCSB. Yuan Li chooses to name our project's code file as goodbyemagnetometer.py because the coding is driving him crazy.
-
+  
 
 # Finished Products
 ## Structure
