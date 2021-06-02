@@ -71,11 +71,14 @@ This is the finished gyroscope.
   
 The magnetometer is fixed at the center of the lazy susan because we want to avoid the effects of any other magnetic fields that are uneven through space.  
   
-We used the labJack instead of AA batteries to provide power to the laser diode. The GND and DAC0 provide 1.2V to the laser diode, and the GND and AIN0 measure the voltage of the photodiode. There are a great number of advantages of using labJack instead of batteries. For example, the laser diode can only take a voltage of 1.2 ~ 1.5V, so most of the time we need to apply a voltage stabilizer to the AA batteries (6V in common). LabJack, however, can provide a stable voltage, and we can change its magnitude by using a small convenient program (included in the goodbyemagnetometer.py file). The black power bank in the corner will provide power to the labJack.  
-  
-The gray box above the labJack implements USB virtualization. It transmits data from labJack to our computer wirelessly, and our coding program will automatically generate relevant plots, like the functions of magnetic field or light intensity over time.
+The gray box above the labJack implements USB virtualization. It transmits data from labJack to our computer wirelessly, and our coding program will automatically generate relevant plots, like the functions of magnetic field or light intensity over time.  
   
 ![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Structure.jpeg)
+  
+We used the labJack instead of AA batteries to provide power to the laser diode. The GND and DAC0 provide 1.2V to the laser diode, and the GND and AIN0 measure the voltage of the photodiode. There are a great number of advantages of using labJack instead of batteries. For example, the laser diode can only take a voltage of 1.2 ~ 1.5V, so most of the time we need to apply a voltage stabilizer to the AA batteries (6V in common). LabJack, however, can provide a stable voltage, and we can change its magnitude by using a small convenient program (included in the goodbyemagnetometer.py file). The black power bank in the corner will provide power to the labJack.  
+  
+![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Transforming%20to%20Wireless%20System.png)
+  
   
 This is a video showing how our project works: https://youtu.be/JSChJpj-myk.  
   
