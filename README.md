@@ -43,9 +43,9 @@ We bought all of the components in Beijing, China, so their prices are typically
 The total investment (include shipping cost) is about \~¥1000 (\~$150), which is acceptable if we do not use some fancy part kits like polarization-maintaining optical fiber.
 
 # Theory: Sagnac Effect
-A beam of light is split into two and the two beams are made to follow the same path but in opposite directions. After looping around, they eventually arrive at the same point and we observe interference pattern there. If the whole setup is at rest, the two beams will travel the same distance and there should be no interference pattern observed since there is no phase difference. If the whole setup is rotated at some angular velocity, the two beams will travel a different distance and generate a phase difference and hence produce an interference pattern.  
+A beam of light is split into two and the two beams are made to follow the same path but in opposite directions. After looping around, they eventually arrive at the same point and we observe an interference pattern there. If the whole setup is at rest, the two beams will travel the same distance and there should be no interference pattern observed since there is no phase difference. If the whole setup is rotated at some angular velocity, the two beams will travel a different distance and generate a phase difference and hence produce an interference pattern.  
   
-To summarize, if the setup makes lights travel in opposite direction in a loop, rotation of the setup will cause an interference pattern. This effect is called the Sagnac effect.  
+To summarize, if the setup makes lights travel in the opposite direction in a loop, rotation of the setup will cause an interference pattern. This effect is called the Sagnac effect.   
 ![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Sagnac%20Effect.png)
   
 This figure is credited to <cite>[Anthony Dandridge][2]</cite>.
