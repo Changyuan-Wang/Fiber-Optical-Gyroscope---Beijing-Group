@@ -41,7 +41,7 @@ We choose to build fiber optical gyroscope instead of mechanical gyroscope becau
 - Wireless Network Print Server (~¥250)
   * This is to achieve a USB virtualization. We can use this print server to transfer data from labJack to our computer from a long distance without wires.
 - Common components like breadboard, wires, batteries, switches, resistors (~¥10)
-- Labjack HV (from PHYS CS 15A)
+- LabJack HV (from PHYS CS 15A)
 
 Note:
 All of the components are bought in Beijing, China, so their prices are typically cheaper than those in the United States. Here is an example purchase link that include most of the components for people in the US: https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=343.
