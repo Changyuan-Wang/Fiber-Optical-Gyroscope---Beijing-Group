@@ -77,6 +77,8 @@ The idea of using tubes to construct the structure is credited to Qikai Gao at U
       + Fibers - use iron wires and tapes to ensure that when we rotate the whole structure, the geometry of cables do not change
 
 # Codes
+We reused some of the codes in the file hellomagnetometer.py in PHYS CS 15A, which is credited to Dr. Patterson at UCSB. Yuan Li chooses to name our project's code file as goodbyemagnetometer.py because the coding is driving him crazy.
+
 
 # Finished Products
 ## Structure
