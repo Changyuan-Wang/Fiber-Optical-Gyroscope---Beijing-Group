@@ -46,7 +46,7 @@ We choose to build fiber optical gyroscope instead of mechanical gyroscope becau
 Note:
 All of the components are bought in Beijing, China, so their prices are typically cheaper than those in the United States. Here is an example purchase link that include most of the components for people in the US: https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=343.
 
-The total investment (include shipping cost) is about ~¥1000 [~$150], which is acceptable if we do not use some fancy part-kits like polarization-maintaining optical fiber.
+The total investment (include shipping cost) is about \~¥1000 (\~$150), which is acceptable if we do not use some fancy part-kits like polarization-maintaining optical fiber.
 
 # Theory: Sagnac Effect
 ![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Sagnac%20Effect.png)
