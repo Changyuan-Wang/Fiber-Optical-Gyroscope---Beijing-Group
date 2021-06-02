@@ -58,8 +58,10 @@ This figure is credited to <cite>[Anthony Dandridge][2]</cite>.
 # Design
 This schematic diagram is the simplified version of our project. Before making the whole system wireless, it is easier to use this circuit to perform all kinds of testing. Later, the voltimeter shown in the diagram will be changed into labJack, and the process of transmitting data wirelessly is also related to labJack.  
   
-To be noted, labJack can also provide power, so we can change the battery into labJack as well. The procedure of how to use labJack to prove power can be easily found online, and we will also mention it in the "Finished Produce - Structure" section.  
+To be noted, labJack can also provide power, so we can change the battery into labJack as well. The procedure of how to use labJack to provide power can be easily found online, and we will also mention it in the "Finished Produce - Structure" section.  
 ![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Circuit%20Diagram%20-%20Testing.png)
+
+We use the magnetometer to measure the geomagnetic field, which will give us a function of angular velocity versus time.
 
 The blue GY-511 module serves as a magnetometer. The magnetometer measures the magnetic field (Bx, By, Bz), and we use a coding program (goodbyemagnetometer.py) to convert the field information into a function of angular velocity versus time.
 ![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/LabJack%20%26%20Magnetometer.png)
@@ -87,13 +89,15 @@ We reused some of the codes in the file hellomagnetometer.py in PHYS CS 15A, whi
 ## Structure
 This is the finished gyroscope.  
   
-The magnetometer is fixed at the center of lazy susan, because we want to avoid the effects of any other magnetic fields that are uneven through space. We use the magnetometer to measure the geomagnetic field, which will   
+The magnetometer is fixed at the center of lazy susan, because we want to avoid the effects of any other magnetic fields that are uneven through space.  
   
-We used the labJack instead of AA batteries to provide power to the laser diode. The GND and DAC0 provide 1.2V to the laser diode, and the GND and AIN0 measure the voltage of the photodiode. There are a great number of advantages of using labJack instead of batteries. For example, the laser diode can only take a voltage of 1.2 ~ 1.5V, so most of the times we need to apply a voltage stabilizer to the AA batteries (6V in common). LabJack, however, can provide a stable voltage, and we can change its magnitude by using a small convenient program (mentioned in the code section). The black power bank in the corner will provide power for the labJack.  
+We used the labJack instead of AA batteries to provide power to the laser diode. The GND and DAC0 provide 1.2V to the laser diode, and the GND and AIN0 measure the voltage of the photodiode. There are a great number of advantages of using labJack instead of batteries. For example, the laser diode can only take a voltage of 1.2 ~ 1.5V, so most of the times we need to apply a voltage stabilizer to the AA batteries (6V in common). LabJack, however, can provide a stable voltage, and we can change its magnitude by using a small convenient program (included in the goodbyemagnetometer.py file). The black power bank in the corner will provide power to the labJack.  
+  
+The gray box above the labJack implements USB virtualization. It transmits data from labJack to our computer wirelessly, and our coding program will automatically generate relevent plots, like the functions of magnetic field or light intensity over time.
   
 ![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Structure.jpeg)
   
-This is an video showing how our project works:
+This is an video showing how our project works: https://youtu.be/JSChJpj-myk.
 
 
 ## Plots
