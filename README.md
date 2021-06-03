@@ -45,6 +45,11 @@ The total investment (include shipping cost) is about \~¥1000 (\~$150), which i
 # Theory: Sagnac Effect
 A beam of light is split into two and the two beams are made to follow the same path but in opposite directions. After looping around, they eventually arrive at the same point and we observe an interference pattern there. If the whole setup is at rest, the two beams will travel the same distance and there should be no interference pattern observed since there is no phase difference. If the whole setup is rotated at some angular velocity, the two beams will travel a different distance and generate a phase difference and hence produce an interference pattern.  
   
+Here is a simple mathematical derivation.  
+T<sub>same</sub> = $\frac{2*pi*R}{c-v}$
+
+$\frac{n!}{k!(n-k)!}$
+  
 To summarize, if the setup makes lights travel in the opposite direction in a loop, rotation of the setup will cause an interference pattern. This effect is called the Sagnac effect.   
 ![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Sagnac%20Effect.png)
   
