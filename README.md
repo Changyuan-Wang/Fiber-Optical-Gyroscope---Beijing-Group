@@ -95,6 +95,8 @@ As we can see in the video, the reading in the multimeter is different if we rot
     - After we have obtained a stable system, we can confidently claim that the changes in intensity data are due to rotation instead of distortion in geometry.
       + Battery - use a buck converter to stabilize the power
       + Fibers - use iron wires and tapes to ensure that when we rotate the whole structure, the geometry of cables do not change
+   - Calibration
+     - Since the geometry may be different every time we use the gyroscope, we need to calibrate our system each time before we use it. The calibration process will take less than 1 minute.
 
 # Codes
 We reused some of the codes in the file hellomagnetometer.py in PHYS CS 15A, which is credited to Dr. Patterson at UCSB. Yuan Li chooses to name our project's code file as goodbyemagnetometer.py because the coding is driving him crazy.
