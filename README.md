@@ -108,6 +108,11 @@ We reused some of the codes in the file hellomagnetometer.py in PHYS CS 15A, whi
 
 [3]: https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/blob/main/goobyeMagnetometer.py
   
+All of the data related to this project stored in the zip file <cite>[history.zip][5]</cite>. To load history, please make sure that the folder is next to the main pipeline program <cite>[goodbyemagnetometer.py][3]</cite>.
+
+[3]: https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/blob/main/goobyeMagnetometer.py
+[5]: https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/blob/main/history.zip
+  
 The following is the structure of the pipeline.
 
 ![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Pipeline/Pipeline.png)
