@@ -183,6 +183,12 @@ Note: The figures are delibrately small because we want to exhibit a intuitive c
 # Anomaly
 
 # Future Outlook
+- Calibration Function
+  * The properties of calibration functions are to be investigated more. For example, now we only know that the calibration function shifts after the geometric change. Exactly how it shifts is to be investigated under a more controlled environment that cannot be achieved in a home setting due to the COVID-19. We will need at least a controlled motor to control the speed of lazy Susan to get repeatable trails. I would like to boldly postulate here: the calibration function only shifts up and down by a constant after the geometric change (need to check the polarization wheels at first for sure).
+- Reason of Rotating B Field
+  * The anomaly is to be investigated more.
+- Go 3D
+  * A fully assembled gyroscope should have 3 axes. We have reserved holes for the upgrade, which allows it to upgrade with ease.
 
 
 # Contributors
