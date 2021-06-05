@@ -170,6 +170,11 @@ cw constant angular speed: 20210602_215657_Bx
   <img src="https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Finished%20Products/Plots/Typical%20Examples/cw-const-magnetic%20field.png" width="20%" /><img src="https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Finished%20Products/Plots/Typical%20Examples/cw-const-heading.png" width="20%" /> <img src="https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Finished%20Products/Plots/Typical%20Examples/cw-const-angular%20velocity.png" width="20%" /><img src="https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Finished%20Products/Plots/Typical%20Examples/cw-const-voltage.png" width="20%" /><img src="https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Finished%20Products/Plots/Typical%20Examples/cw-const-calibration.png" width="20%" />
 </p>
 
+|                           |CW- constant               |CCW- constant              |CW- Accelerating           |CCW- Accelerating          | 
+|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
+| Magnetic Field |![](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Finished%20Products/Plots/Typical%20Examples/cw-const-magnetic%20field.png)  |  ![](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Pipeline/after%20normalization.png)  |  ![](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Pipeline/after%20normalization.png)
+  |  ![](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Pipeline/after%20normalization.png)
+
 
 
 ## Calibration Function
