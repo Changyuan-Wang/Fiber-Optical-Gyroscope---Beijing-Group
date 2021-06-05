@@ -165,7 +165,10 @@ When the gyroscope slows down naturally, the intensity decreases over time.
 ### Typical Examples
 After the brief introduction of the physical meanings of figures, we can now look at several sets of typical examples. In the following examples, cw stands for clockwise and ccw stands for counterclockwise.  
   
+Note: The figures are delibrately small because we want to exhibit a intuitive comparison by using the table below. If you want to look at the details of the figures, you can click on them, zoom in, or find them in the <cite>[Typical Example][4]</cite> folder.
 
+[4]: https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Finished%20Products/Plots/Typical%20Examples
+  
 |                           |CW- constant               |CCW- constant              |CW- Accelerating           |CCW- Accelerating          | 
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
 | Magnetic Field |![](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Finished%20Products/Plots/Typical%20Examples/cw-const-magnetic%20field.png)  |  ![](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Finished%20Products/Plots/Typical%20Examples/ccw-const-magnetic%20field.png)  |  ![](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Finished%20Products/Plots/Typical%20Examples/cw-accelerating-magnetic%20field.png)  |  ![](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Finished%20Products/Plots/Typical%20Examples/ccw-accelerating-magnetic%20field.png)  |
