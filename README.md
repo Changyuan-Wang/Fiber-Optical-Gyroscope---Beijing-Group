@@ -46,7 +46,7 @@ The total investment (include shipping cost) is about \~¥1000 (\~$150), which i
 A beam of light is split into two and the two beams are made to follow the same path but in opposite directions. After looping around, they eventually arrive at the same point and we observe an interference pattern there. If the whole setup is at rest, the two beams will travel the same distance and there should be no interference pattern observed since there is no phase difference. If the whole setup is rotated at some angular velocity, the two beams will travel a different distance and generate a phase difference and hence produce an interference pattern.  
   
 To summarize, if the setup makes lights travel in the opposite direction in a loop, rotation of the setup will cause an interference pattern. This effect is called the Sagnac effect.   
-![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Sagnac%20Effect.png)
+![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Theory/Sagnac%20Effect.png)
   
 This figure is credited to <cite>[Anthony Dandridge][2]</cite>.
 
@@ -56,12 +56,12 @@ This figure is credited to <cite>[Anthony Dandridge][2]</cite>.
 This schematic diagram is the simplified version of our project. The coupler splits light evenly into two beams, which will go into opposite directions and come back to the coupler. The polarization controller can change the polarization of the two light. Before making the whole system wireless, it is easier to use this circuit to perform all kinds of testing. Later, the voltmeter shown in the diagram will be changed into labJack, and the process of transmitting data wirelessly is also related to labJack.  
   
 To be noted, labJack can also provide power, so we can change the battery into labJack as well. The procedure of how to use labJack to provide power can be easily found online, and we will also mention it in the "Finished Produce - Structure" section.  
-![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Circuit%20Diagram%20-%20Testing.png)
+![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Design/Circuit%20Diagram%20-%20Testing.png)
 
 We used the magnetometer to measure the geomagnetic field, which will give us a function of angular velocity versus time. At the same time, the labJack will measure the voltage of the photodiode, which will be converted into a function of intensity over time because the voltage of a photodiode is proportional to the light intensity it receives. In the end, we will combine the angular velocity plot and the intensity plot into a function of angular velocity over intensity, which will help us measure the speed of rotation of this gyroscope.
   
 The blue GY-511 module serves as a magnetometer. The magnetometer measures the magnetic field (Bx, By, Bz), and we use a coding program (goodbyemagnetometer.py) to convert the field information into a function of angular velocity versus time.
-![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/LabJack%20%26%20Magnetometer.png)
+![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Design/LabJack%20%26%20Magnetometer.png)
 The idea of using tubes to construct the structure is credited to Qikai Gao at UC Davis.
 
 
@@ -73,11 +73,11 @@ The magnetometer is fixed at the center of the lazy susan because we want to avo
   
 The gray box above the labJack implements USB virtualization. It transmits data from labJack to our computer wirelessly, and our coding program will automatically generate relevant plots, like the functions of magnetic field or light intensity over time.  
   
-![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Structure.jpeg)
+![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Building%20Process/Structure.jpeg)
   
 We used the labJack instead of AA batteries to provide power to the laser diode. The GND and DAC0 provide 1.2V to the laser diode, and the GND and AIN0 measure the voltage of the photodiode. There are a great number of advantages of using labJack instead of batteries. For example, the laser diode can only take a voltage of 1.2 ~ 1.5V, so most of the time we need to apply a voltage stabilizer to the AA batteries (6V in common). LabJack, however, can provide a stable voltage, and we can change its magnitude by using a small convenient program (included in the goodbyemagnetometer.py file). The black power bank in the corner will provide power to the labJack.  
   
-![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Transforming%20to%20Wireless%20System.png)
+![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Building%20Process/Transforming%20to%20Wireless%20System.png)
   
   
 This is a video showing how our project works: https://youtu.be/JSChJpj-myk.  
@@ -105,7 +105,7 @@ We reused some of the codes in the file hellomagnetometer.py in PHYS CS 15A, whi
   
 The following is the structure of the pipeline.
 
-![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Pipeline.png)
+![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Pipeline/Pipeline.png)
 
 # Finished Products
 ## Plots
