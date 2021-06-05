@@ -16,6 +16,8 @@ We choose to build a fiber optical gyroscope instead of a mechanical gyroscope b
 - [Code](#5-code)
 - [Finished Product](#6-finished-project)
   * [Plots](#61-plots)
+    + [The Meaning of Plots](#611-the-meaning-of-plots)
+    + [Typical Examples](#612-typical-examples)
   * [Calibration Function](#62-calibration-function)
 - [Anomaly](#7-anomaly)
 - [Future Outlook](#8-future-outlook)
@@ -154,10 +156,19 @@ The calibration function from the data above:
 
 # Finished Products
 ## Plots
-Since we align the x-axis of the magnetometer with the z-axis of the gyroscope (pointing upwards), the x-component of the magnetic field (Bx) is a constant (which makes sense).
+### The Meaning of Plots
+Let us first connect our plots with their physical meanings. Since we align the x-axis of the magnetometer with the z-axis of the gyroscope (pointing upwards), the x-component of the magnetic field (Bx) is a constant (which makes sense).
 ![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Finished%20Products/Plots/The%20Meaning%20of%20Plots/Magnetic%20Field%20(Bx%2C%20By%2C%20Bz).png)
 When the gyroscope slows down naturally, the intensity decreases over time.
 ![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Finished%20Products/Plots/The%20Meaning%20of%20Plots/Intensity%20v.s.%20Time%20(slows%20down).png)
+
+### Typical Examples
+After the brief introduction of the physical meanings of figures, we can now look at several sets of typical examples. In the following examples, cw stands for clockwise and ccw stands for counterclockwise.  
+  
+cw constant angular speed: 20210602_215657_Bx  
+
+
+
 
 ## Calibration Function
 
