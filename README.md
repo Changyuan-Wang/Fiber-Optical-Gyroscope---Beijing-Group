@@ -166,7 +166,9 @@ When the gyroscope slows down naturally, the intensity decreases over time.
 After the brief introduction of the physical meanings of figures, we can now look at several sets of typical examples. In the following examples, cw stands for clockwise and ccw stands for counterclockwise.  
   
 cw constant angular speed: 20210602_215657_Bx  
-
+<p align="middle">
+  <img src="https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Finished%20Products/Plots/Typical%20Examples/cw-const-magnetic%20field.png" width="20%" /><img src="https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Finished%20Products/Plots/Typical%20Examples/cw-const-heading.png" width="20%" /> <img src="https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Finished%20Products/Plots/Typical%20Examples/cw-const-angular%20velocity.png" width="20%" /><img src="https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Finished%20Products/Plots/Typical%20Examples/cw-const-voltage.png" width="20%" /><img src="https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Finished%20Products/Plots/Typical%20Examples/cw-const-calibration.png" width="20%" />
+</p>
 
 
 
