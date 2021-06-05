@@ -18,7 +18,7 @@ We choose to build a fiber optical gyroscope instead of a mechanical gyroscope b
   * [Plots](#61-plots)
   * [Calibration Function](#62-calibration-function)
 - [Anomaly](#7-anomaly)
-- [Future OUtlook](#8-future-outlook)
+- [Future Outlook](#8-future-outlook)
 - [Contributors](#9-contributors)
 
 # List of Components
@@ -121,7 +121,7 @@ When the gyroscope slows down naturally, the intensity decreases over time.
 
 # Anomaly
 
-# Future OUtlook
+# Future Outlook
 
 
 # Contributors
