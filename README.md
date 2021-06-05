@@ -183,7 +183,9 @@ Note: The figures are delibrately small because we want to exhibit a intuitive c
 # Anomaly
 As the Euclidean geometry predicts, the module of a vector is a constant. Also, we are supposed to measure the geomagnetic here. Thus, the module of B we measure should be a constant. However, after ruling out possibilities of defective magnetometer, change of magnetic field due to position, and magnetic field from power lines (DC) on the lazy Susan, we still observe a periodically changing magnetic field (module), and the period of change is the same as it’s components, thus the period of the lazy Susan. This coincides with the model of ![](http://latex.codecogs.com/gif.latex?\\vec{B}_{total}=\\vec{B}_{geo}+\\vec{B}_{rotation}({\\theta})), where ![](http://latex.codecogs.com/gif.latex?\\theta) is the heading and ![](http://latex.codecogs.com/gif.latex?|\\vec{B}_{rotation}({\\theta})|=const). This implies there is some constant magnetic field rotating with the lazy Susan. The details of this field are to be investigated.  
   
-![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Anomaly/Module%20of%20Vector%20B.png)
+<p align="middle">
+  <img src="https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Anomaly/Module%20of%20Vector%20B.png"/> 
+</p>
   
 
 # Future Outlook
