@@ -179,6 +179,20 @@ Note: The figures are delibrately small because we want to exhibit a intuitive c
 
 
 ## Calibration Function
+From the above examples, we see that the calibration functions for constant speed trails are almost a point, which is expected since the constant speed trails only reflect the angular velocity of a certain voltage. However, the calibration function for the accelerating trails is more expanded since they cover more angular speed. It is noticeable that for cw and ccw, the calibration function is not exactly symmetric about the x-axis. This is expected from the underlying physics of the Sagnac effect ---- only when we are at the zero points of the sine function for 0 angular speed that we get a symmetric calibration function.  
+  
+Change of geometry is also important here. It is noticeable that a small change of geometry could cause a big change in the calibration function, as in the following example of a cw accelerating trail.  
+  
+Before Geometric Change             |  After Geometric Change
+:-------------------------:|:-------------------------:
+![](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Finished%20Products/Calibration%20Function/cw-before%20geometric%20change.png)  |  ![](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Finished%20Products/Calibration%20Function/cw-after%20geometric%20change.png)
+  
+And an example of ccw accelerating trail:  
+  
+Before Geometric Change             |  After Geometric Change
+:-------------------------:|:-------------------------:
+![](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Finished%20Products/Calibration%20Function/ccw-before%20geometric%20change.png)  |  ![](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Finished%20Products/Calibration%20Function/ccw-after%20geometric%20change.png)
+  
 
 # Anomaly
 As the Euclidean geometry predicts, the module of a vector is a constant. Also, we are supposed to measure the geomagnetic here. Thus, the module of B we measure should be a constant. However, after ruling out possibilities of defective magnetometer, change of magnetic field due to position, and magnetic field from power lines (DC) on the lazy Susan, we still observe a periodically changing magnetic field (module), and the period of change is the same as it’s components, thus the period of the lazy Susan. This coincides with the model of ![](http://latex.codecogs.com/gif.latex?\\vec{B}_{total}=\\vec{B}_{geo}+\\vec{B}_{rotation}({\\theta})), where ![](http://latex.codecogs.com/gif.latex?\\theta) is the heading and ![](http://latex.codecogs.com/gif.latex?|\\vec{B}_{rotation}({\\theta})|=const). This implies there is some constant magnetic field rotating with the lazy Susan. The details of this field are to be investigated.  
