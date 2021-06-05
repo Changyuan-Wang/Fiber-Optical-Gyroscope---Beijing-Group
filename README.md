@@ -16,7 +16,10 @@ We choose to build a fiber optical gyroscope instead of a mechanical gyroscope b
 - [Code](#5-code)
 - [Finished Product](#6-finished-project)
   * [Plots](#61-plots)
-- [Contributors](#7-contributors)
+  * [Calibration Function](#62-calibration-function)
+- [Anomaly](#7-anomaly)
+- [Future OUtlook](#8-future-outlook)
+- [Contributors](#9-contributors)
 
 # List of Components
 
@@ -113,6 +116,12 @@ Since we align the x-axis of the magnetometer with the z-axis of the gyroscope (
 ![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Magnetic%20Field%20(Bx%2C%20By%2C%20Bz).png)
 When the gyroscope slows down naturally, the intensity decreases over time.
 ![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Intensity%20v.s.%20Time%20(slows%20down).png)
+
+## Calibration Function
+
+# Anomaly
+
+# Future OUtlook
 
 
 # Contributors
