@@ -109,6 +109,27 @@ We reused some of the codes in the file hellomagnetometer.py in PHYS CS 15A, whi
 The following is the structure of the pipeline.
 
 ![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Pipeline/Pipeline.png)
+  
+One thing to notice here is that the Voltage array is named I (for intensity) due to historical reasons. I and V (and thus Intensity and Voltage) are used interchangeably in the context.  
+  
+We would like to explain the “analyze data” section here in detail:  
+
+First is the normalization of Bx, By. They are generally not purely sin(at+b), cos(at+b). Actually, sin(at+b)+const1 and cos(at+b)+const2 may suite them better. Thus, we have the normalization canceling this const1 and const2 by subtracting with their respective mean. A better method can be using scipy to fit them with sin(at+b)+const1 model and get const1 since the real data are not always in its whole cycle. But turns out it doesn’t affect a lot. To avoid artificial manipulation of data, we choose the simpler one.  
+  
+The figures below are the plots of the magnetic fields before and after normalization:
+
+Before Normalization             |  After Normalization
+:-------------------------:|:-------------------------:
+![](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Pipeline/before%20normalization.png)  |  ![](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Pipeline/after%20normalization.png)
+  
+Another important thing is the regularization of heading. The heading resulting from simple arctangent is naturally jumping. We need to cancel the jump by adding or subtracting 180 degrees depending on whether the FOG is rotating clockwise or counterclockwise. The for loop automatically detects these jumps and to the adding/subtracting. After the regularization, the heading is a “good” function. Good here means the function is generally continuous, thus ready for derivative. The following example has almost constant angular velocity.  
+  
+The figures below are the plots of the headings before and after regulation:
+
+Before Regulation             |  After Regulation
+:-------------------------:|:-------------------------:
+![](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Pipeline/before%20regulation.png)  |  ![](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Pipeline/after%20regulation.png)
+
 
 # Finished Products
 ## Plots
