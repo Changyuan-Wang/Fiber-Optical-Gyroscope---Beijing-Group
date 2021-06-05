@@ -132,13 +132,25 @@ Before Regulation             |  After Regulation
 ![](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Pipeline/before%20regulation.png)  |  ![](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Pipeline/after%20regulation.png)
   
   
-After using a time derivative to get angular velocity, we take a 30-to-1 binning average of the data. This helps smooth the data. Notably, this is mathematically equivalent to take a jumped derivative, that is, instead of calculating![](http://latex.codecogs.com/gif.latex?\\frac{D_{n+1}-D_{n}}{t_{n+1}-t_{n}}), we calculate ![](http://latex.codecogs.com/gif.latex?\\frac{D_{n+30}-D_{n}}{t_{n+30}-t_{n}}). We choose to first calculate derivate because of the easiness on the programming side. As the example of an accelerating FOG below shows, the original data (blue dots) are scattered, while the smoothed data (turning points of the orange line) shows the trend correctly. Especially that we indeed slowed the lazy Susan down at the end. The smooth orange line of linear interpolation is used as ![](http://latex.codecogs.com/gif.latex?\\omega(t)).
-
-
-![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Pipeline/example-angular%20velocity.png)
-![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Pipeline/example-angular%20velocity.png)
-![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Pipeline/example%20-%20voltage.png)
-![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Pipeline/example%20-%20calibration.png)
+After using a time derivative to get angular velocity, we take a 30-to-1 binning average of the data. This helps smooth the data. Notably, this is mathematically equivalent to take a jumped derivative, that is, instead of calculating![](http://latex.codecogs.com/gif.latex?\\frac{D_{n+1}-D_{n}}{t_{n+1}-t_{n}}), we calculate ![](http://latex.codecogs.com/gif.latex?\\frac{D_{n+30}-D_{n}}{t_{n+30}-t_{n}}). We choose to first calculate derivate because of the easiness on the programming side. As the example of an accelerating FOG below shows, the original data (blue dots) are scattered, while the smoothed data (turning points of the orange line) shows the trend correctly. Especially that we indeed slowed the lazy Susan down at the end. The smooth orange line of linear interpolation is used as ![](http://latex.codecogs.com/gif.latex?\\omega(t)).  
+  
+<p align="middle">
+  <img src="https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Pipeline/example-angular%20velocity.png"/> 
+</p>
+  
+The last function of the data analysis part is to fit the calibration function. In principle, we can deduce the function ![](http://latex.codecogs.com/gif.latex?\\omega(V)) from the function ![](http://latex.codecogs.com/gif.latex?\\omega(t))   and V(t). This is done in python with another interpolation.  
+  
+Data to interpolate:  
+  
+<p align="middle">
+  <img src="https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Pipeline/example-angular%20velocity.png" width="50%" /><img src="https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Pipeline/example%20-%20voltage.png" width="50%" /> 
+</p>
+  
+The calibration function from the data above:  
+  
+<p align="middle">
+  <img src="https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Pipeline/example%20-%20calibration.png"/> 
+</p>
 
 # Finished Products
 ## Plots
