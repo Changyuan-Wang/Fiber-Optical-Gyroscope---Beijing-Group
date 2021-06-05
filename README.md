@@ -155,9 +155,9 @@ The calibration function from the data above:
 # Finished Products
 ## Plots
 Since we align the x-axis of the magnetometer with the z-axis of the gyroscope (pointing upwards), the x-component of the magnetic field (Bx) is a constant (which makes sense).
-![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Magnetic%20Field%20(Bx%2C%20By%2C%20Bz).png)
+![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Finished%20Products/Plots/The%20Meaning%20of%20Plots/Magnetic%20Field%20(Bx%2C%20By%2C%20Bz).png)
 When the gyroscope slows down naturally, the intensity decreases over time.
-![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Intensity%20v.s.%20Time%20(slows%20down).png)
+![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Finished%20Products/Plots/The%20Meaning%20of%20Plots/Intensity%20v.s.%20Time%20(slows%20down).png)
 
 ## Calibration Function
 
