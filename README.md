@@ -98,11 +98,14 @@ As we can see in the video, the reading in the multimeter is different if we rot
    - Calibration
      - Since the geometry may be different every time we use the gyroscope, we need to calibrate our system each time before we use it. The calibration process will take less than 1 minute.
 
-# Codes
-We reused some of the codes in the file hellomagnetometer.py in PHYS CS 15A, which is credited to Dr. Patterson at UCSB. Yuan Li chooses to name our project's code file as <cite>[goodbyemagnetometer.py][3]</cite> because the coding is driving him crazy.
+# Pipeline
+We reused some of the codes in the file hellomagnetometer.py in PHYS CS 15A, which is credited to Dr. Patterson at UCSB. Yuan Li chooses to name our project's code file as <cite>[goodbyemagnetometer.py][3]</cite> because the coding was driving him crazy.
 
 [3]: https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/blob/main/goobyeMagnetometer.py
   
+The following is the structure of the pipeline.
+
+![Image](https://github.com/Changyuan-Wang/Fiber-Optical-Gyroscope---Beijing-Group/raw/main/IMG/Pipeline.png)
 
 # Finished Products
 ## Plots
